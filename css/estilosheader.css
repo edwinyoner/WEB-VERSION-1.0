@@ -1,0 +1,111 @@
+/* resetar el estilo por defecto*/
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+   width: 100%;
+   height: 100px;  
+   max-height: 100px;
+   min-height: 100px;
+   position: fixed;
+   z-index: 100;
+   background-color: #454545;
+}
+
+.headerancho {
+   width: 100%;
+   height: 100px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   /*row-gap: 5px;*/
+}
+
+.redessociales {
+   width: 50%;
+   height: 22.5px;
+   padding: 2.5px 0px 0px 0px;   
+   margin: auto;
+   box-sizing: border-box;
+}
+
+.redessociales ul {
+   text-align: center;
+}
+
+.redessociales ul li {
+   display: inline-block;
+   padding: 0px 1px 0px 1px;
+}
+
+.redessociales ul li a {
+   text-decoration: none;
+}
+.redessociales ul li a img{
+   width: 22.5px;
+   height: 22.5px;
+}
+
+#nombre {
+   width: 50%;
+   height: 45px;
+   margin: auto;
+   box-sizing: border-box;
+}
+#nombre h1 a{
+   text-decoration: none;
+   color: #fff;
+   padding: 2.5px 0px 2.5px 0px; 
+}
+
+#nombre h1 {
+   font: bold 45px Arial, sans-serif;
+   text-align: center;
+}
+
+
+/* menuprincipal */
+#menuprincipal {
+   margin: auto; /* El <div> del logo tiene un margin:auto para el centrado automático y una anchura asignada. */
+   text-align: center;
+   width: 100%;
+   height: 25px;
+   max-height: 25px;
+   min-height: 25px;
+   border-top: 1px solid #fff;
+   background-color: #7c7334;  /*489;*/
+}
+
+#menuprincipal > div {
+   width: 100%;
+   height: 25px;
+   margin: auto;
+   padding: 0px 5px 0px 0px;
+}
+
+#menuprincipal li {
+   display: inline-block;
+   padding: 2.5px 10px 2.5px 10px;
+   margin: auto;
+   height: 20px;
+  /* border-left: 1px solid #fff;
+   border-right: 1px solid #fff;*/
+}
+
+#menuprincipal li:hover {
+   background-color: #444;
+}
+#menuprincipal li:active {
+   background-color: #444;
+}
+
+#menuprincipal a {
+   font: 20px "arial";
+   color: #fff;
+   text-decoration: none;
+}
+ 
+
+

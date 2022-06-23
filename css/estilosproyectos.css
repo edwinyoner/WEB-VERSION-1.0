@@ -1,0 +1,28 @@
+/* resetar el estilo por defecto*/
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+#tituloproyectos {
+   width: 100%;
+   height: 100px;
+   margin: 0% 0% 0% 0%; 
+   padding: 100px 0% 25px 0%; 
+   background-image: url("../imagenes/principal.jpg");
+   border-top: 0px solid #094660;
+}
+#tituloproyectos section {
+   width: 100%;
+   height: 100px;
+   padding: 0px 0% 25px 0%; 
+   background: rgba(52, 102, 116, 0.8);
+}
+#tituloproyectos h1 {
+   padding-top: 35px;
+   text-align: center;
+   font-size: 50px;
+   color: #fff;
+}
+
+
